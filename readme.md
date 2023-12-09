@@ -4,7 +4,7 @@ This is a PyTorch implementation of  Adaptive Double Correction by Series Decomp
 
 ## Requirements
 
-Our code is based on Python version 3.9.12 and PyTorch version 1.11.0. Please make sure you have installed Python and PyTorch correctly. Then you can install all the dependencies with the following command by pip:
+Our code is based on Python version 3.10 and PyTorch version 2.0.1. Please make sure you have installed Python and PyTorch correctly. Then you can install all the dependencies with the following command by pip:
 
 ```shell
 pip install -r requirements.txt
