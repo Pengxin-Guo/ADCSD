@@ -1,0 +1,26 @@
+{
+    "traffic_state_pred": {
+        "allowed_model": [
+            "PDFormer", "AGCRN", "ASTGCN"
+        ],
+        "allowed_dataset": [
+            "PeMS07", "BayArea",
+            "NYCTaxi", "T-Drive"
+        ],
+        "PDFormer": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "PDFormerExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "AGCRN": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "AGCRNExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        },
+        "ASTGCN": {
+            "dataset_class": "PDFormerDataset",
+            "executor": "ASTGCNExecutor",
+            "evaluator": "TrafficStateEvaluator"
+        }
+    }
+}
