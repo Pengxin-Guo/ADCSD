@@ -1,6 +1,6 @@
-# Online Test-Time Adaptation of Spatial-Temporal Forecasting
+# Online Test-Time Adaptation of Spatial-Temporal Traffic Flow Forecasting
 
-This is a PyTorch implementation of  Adaptive Double Correction by Series Decomposition (**ADCSD**) for Online Test-Time Adaptation of Spatial-Temporal Forecasting.
+This is a PyTorch implementation of  Adaptive Double Correction by Series Decomposition (**ADCSD**) for Online Test-Time Adaptation of Spatial-Temporal Traffic Flow Forecasting.
 
 ## Requirements
 
